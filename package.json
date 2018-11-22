@@ -1,0 +1,26 @@
+{
+  "name": "google-totp",
+  "version": "1.0.0",
+  "description": "This is a library which generates a QR Code and let's you authenticate using the Google Authenticator app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "totp"
+  ],
+  "author": "kaushalop",
+  "license": "ISC",
+  "dependencies": {
+    "api-error-handler": "^1.0.0",
+    "authenticator": "^1.1.5",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "fast-csv": "^2.4.1",
+    "mongoose": "^5.3.13",
+    "node-rest-client": "^3.1.0",
+    "uuid": "^3.3.2"
+  }
+}
