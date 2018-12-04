@@ -3,11 +3,7 @@ var app        = express();
 var errorHandler = require('api-error-handler');
 var bodyParser = require('body-parser');
 var cors =  require('cors');
-var Client = require('node-rest-client').Client;
- 
-var client = new Client();
 
-const uuidv4 = require('uuid/v4');
 var mongoose   = require('mongoose');
 var Schema       = mongoose.Schema;
 
